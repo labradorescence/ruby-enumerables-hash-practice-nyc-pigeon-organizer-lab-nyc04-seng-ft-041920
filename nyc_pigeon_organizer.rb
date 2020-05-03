@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
           goal[d_each_name][:color] << d_each_color.to_s
            end
         end
-      end      
+      end
   end
 
 
@@ -35,7 +35,7 @@ def nyc_pigeon_organizer(data)
           goal[d_each_name][:gender] << d_each_gender.to_s
            end
         end
-      end      
+      end
   end
 
   goal_names = goal.keys
@@ -48,7 +48,7 @@ def nyc_pigeon_organizer(data)
           goal[d_each_name][:lives] << d_each_lives.to_s
            end
         end
-      end      
+      end
   end
   return goal
 
